@@ -1,0 +1,38 @@
+<h2>assignment-product works!</h2><hr>
+<div class ="container">
+ <table border="3px"class="table table-hover">
+   <tr>
+   <!-- <td colspan="3"> <select class="form-select" [(ngModel)]="funnel" >   -->
+       
+    <td colspan="4">search:<input type="text" [(ngModel)]="filter"></td> 
+   
+    <td><select class="form-select" [(ngModel)]="funnel" >
+      <option [value]="'a-z'">A-Z</option>
+      <option [value]="'z-a'">Z-A</option>
+      <option [value]="'low'">Low-High</option>
+      <option [value]="'high'">High-Low</option>
+   </select>  </td>
+    
+     
+        
+    </tr> 
+
+    <tr><th>PID</th>
+        <th>ProductName</th>
+        <th>Productprice</th>
+        <th>productdesc</th>
+        <th>productimage</th>
+
+    </tr>
+   
+    <tr ngColor *ngFor="let product of  products|search:filter|sort:funnel"> 
+    <td>{{product.productid}}</td>
+    <td>{{product.productname}}</td>
+    <td>{{product.productprice}}</td>
+    <td>{{product.productdesc}}</td>
+    <td><img [src]='product.productimg' height='70px' width='90px'></td>
+
+
+
+      </table>  
+</div>

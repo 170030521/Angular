@@ -1,0 +1,8 @@
+<div>
+    <h1>Parent Component</h1>
+    <span>Parent component data</span>
+  {{Counter}}
+    <!-- <app-child cname ='puname' (notify)='parentmethod($event)'></app-child> -->
+    <app-child [count]='Counter' (notify)="parentData($event)"></app-child>
+  
+  </div>

@@ -1,0 +1,15 @@
+<h2>Calculator Component</h2>
+<hr>
+<table>
+  <tr><td>Number 1 :<input type="text" #num1></td></tr>
+  <tr><td>Number 2 :<input type="text" #num2></td></tr>
+  <tr><td>Result&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" [(ngModel)]="result" readonly></td></tr>
+  <tr>
+    <td>
+        <button   (click)="doOperation(num1.value,num2.value,'+')">Add</button>&nbsp;
+        <button   (click)="doOperation(num1.value,num2.value,'-')">Subtract</button>&nbsp;
+        <button   (click)="doOperation(num1.value,num2.value,'x')">Multiply</button>&nbsp;
+        <button   (click)="doOperation(num1.value,num2.value,'/')">Divide</button>&nbsp;
+    </td>
+  </tr>
+</table>
