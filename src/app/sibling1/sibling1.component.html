@@ -1,0 +1,23 @@
+<h1>sibling1 works!</h1><hr>
+<div><table  border="2" class=table align="center">
+    
+        <tr>
+            <td>
+                EmployeeId
+            </td>
+            <td>
+                EmployeeName
+            </td>
+            <td>
+                EmployeeSalary
+            </td>
+        </tr>
+   
+    <tr appMycolor *ngFor='let customer of customers'>
+    <td>{{customer.empId}} </td>
+    <td>{{customer.empName}} </td>
+    <td>{{customer.salary}}</td>
+    </tr>
+</table>
+    <button (click)='modifiedData()'>Click Here</button>
+</div>

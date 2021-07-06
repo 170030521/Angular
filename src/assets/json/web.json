@@ -1,0 +1,43 @@
+[
+
+    {
+  
+    "courseid":"html",
+  
+    "coursename":"html",
+  
+    "courseprice":300,
+  
+    "coursedesc":"html course",
+    "courseImg":"assets/html.png"
+  
+
+  },
+  {
+  
+    "courseid":"css",
+  
+    "coursename":"css",
+  
+    "courseprice":400,
+  
+    "coursedesc":"css course",
+    "courseImg":"assets/css.png"
+  
+ 
+  
+  },
+  {
+  
+    "courseid":"angular",
+  
+    "coursename":"angular",
+  
+    "courseprice":500,
+  
+    "coursedesc":"angular course",
+    "courseImg":"assets/angular.png"
+ 
+  
+  }
+  ]

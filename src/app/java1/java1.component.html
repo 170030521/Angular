@@ -1,0 +1,65 @@
+<!-- <h2>java-product works!</h2><hr>
+<div class ="container">
+ <table border="3px"class="table table-hover">
+   <tr>
+   <!-- <td colspan="3"> <select class="form-select" [(ngModel)]="funnel" >   -->
+       
+    <!-- <td colspan="4">search:<input type="text" [(ngModel)]="filter"></td> 
+   
+    <td><select class="form-select" [(ngModel)]="funnel" >
+      <option [value]="'a-z'">A-Z</option>
+      <option [value]="'z-a'">Z-A</option>
+      <option [value]="'low'">Low-High</option>
+      <option [value]="'high'">High-Low</option>
+   </select>  </td>
+    
+     
+        
+    </tr> 
+
+    <tr><th>PID</th>
+        <th>CourseName</th>
+        <th>Courseprice</th>
+        <th>Coursedesc</th>
+        <th>Courseimage</th>
+
+    </tr>
+   
+    <tr ngColor *ngFor="let course of courses|search:filter|sort:funnel"> 
+    <td>{{course.courseid}}</td>
+    <td>{{course.coursename}}</td>
+    <td>{{course.courseprice}}</td>
+    <td>{{course.coursedesc}}</td>
+    <td><img [src]='course.courseimg' height='60px' width='70px'></td> 
+
+
+
+      </table>  
+</div>
+  -->
+  <h2>Java</h2>
+
+  <div class ='container' align='center'>
+  
+  
+  
+      <div class="row">
+  
+        <div *ngFor='let course of courses' class="col-sm">
+  
+          <a [routerLink]='[course.courseid]' routerLinkActive="active"><img [src]='course.courseImg' height='60px' width='60px'></a>
+  
+      
+  
+  
+  
+      </div>
+  
+  
+  
+  
+  </div>
+  
+  <router-outlet></router-outlet>
+  
+  </div>

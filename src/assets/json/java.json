@@ -1,0 +1,43 @@
+[
+
+    {
+  
+    "courseid":"oops",
+  
+    "coursename":"oops",
+  
+    "courseprice":300,
+  
+    "coursedesc":"oops concepts",
+    "courseImg":"assets/oops.jpg"
+  
+
+  },
+  {
+  
+    "courseid":"spring",
+  
+    "coursename":"spring",
+  
+    "courseprice":400,
+  
+    "coursedesc":"spring concept",
+    "courseImg":"assets/spring.png"
+  
+ 
+  
+  },
+  {
+  
+    "courseid":"multithreading",
+  
+    "coursename":"multithreading",
+  
+    "courseprice":500,
+  
+    "coursedesc":"Multithreading concept",
+    "courseImg":"assets/Multithreading.png"
+ 
+  
+  }
+  ]

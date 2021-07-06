@@ -15,7 +15,7 @@ export class SearchPipe implements PipeTransform {
     var resultval:any=[]
     for(var i=0;i<value.length;i++)
     {
-      if(value[i].productname.toLowerCase().includes(args))
+      if(value[i].coursename.toLowerCase().includes(args))
       {
         resultval.push(value[i])
       }

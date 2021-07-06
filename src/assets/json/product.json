@@ -1,29 +1,29 @@
 [
 
-    {
-  
-    "productid":1,
-  
-    "productname":"Dairy milk",
-  
-    "productprice":300,
-  
-    "productdesc":"product contains 10packets of dairymilk chocolates",
-  
-  "productimg":"assets/choco.jpg"
-  
-  },
-  
   {
-  
-  "productid":2,
-  
-  "productname":"5star",
-  
-  "productprice":250,
-  
-  "productdesc":"product contains 20 packets of kitkat chocolates",
-  
-  "productimg":"assets/choco1.jpg"
-  
-  }]
+
+  "productid":1,
+
+  "productname":"Dairy milk",
+
+  "productprice":300,
+
+  "productdesc":"product contains 10packets of dairymilk chocolates",
+
+"productimg":"assets/choco.jpg"
+
+},
+
+{
+
+"productid":2,
+
+"productname":"5star",
+
+"productprice":250,
+
+"productdesc":"product contains 20 packets of kitkat chocolates",
+
+"productimg":"assets/choco1.jpg"
+
+}]
